@@ -4,8 +4,14 @@
   "version": "${version}",
   "name": "Don't Hurt Others' Pets",
   "description": "Prevents people from hurting pets that don't belong to them",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "Theooolone"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/dont-hurt-others-pets",
+    "sources": "https://github.com/Theooolone/dont-hurt-others-pets",
+    "issues": "https://github.com/Theooolone/dont-hurt-others-pets/issues"
+  },
   "license": "MIT",
   "icon": "assets/dont-hurt-others-pets/icon.png",
   "environment": "*",
