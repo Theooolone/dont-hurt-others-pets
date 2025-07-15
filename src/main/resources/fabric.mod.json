@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dont-hurt-others-pets",
+  "version": "${version}",
+  "name": "Don't Hurt Others' Pets",
+  "description": "Prevents people from hurting pets that don't belong to them",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dont-hurt-others-pets/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "dont-hurt-others-pets.mixins.json",
+    {
+      "config": "dont-hurt-others-pets.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=1.21.7"
+  }
+}
